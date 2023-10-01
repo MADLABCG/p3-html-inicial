@@ -5,46 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic HTML</title>
-
-    <style>
-        /* h1 {
-            font-family: Arial, Helvetica, sans-serif;
-            color: blue;
-        } */
-
-        p {
-            font-family: 'Trebuchet MS', sans-serif, monospace;
-        }
-
-        h2 {
-            font-family: Arial, Helvetica, sans-serif, Times, serif;
-            text-shadow: 2px 4px 5px #eee, 0 0 1px red;
-            letter-spacing: 2px;
-            word-spacing: 4px;
-        }
-
-        .editor-note {
-            color: red;
-            font-size: 20px;
-        }
-
-        .editor-vote {
-            color: purple;
-            font-size: 40px;
-        }
-
-        .editor-bold {
-            font-weight: bolder;
-        }
-    </style>
-
+    <link rel="stylesheet" href="css/app.css">
 </head>
 
-
-
 <body>
-    <h1>My First Heading</h1>
+    <h1 class="titulo_crooked">My First Heading H1</h1>
     <h2>Titulo en H2</h2>
+    <h3>Titulo en H3</h3>
+    <h4>Titulo en H4</h4>
+    <h5>Titulo en H5</h5>
     <p class="editor-note editor-bold">Mi gato es muy <i> gruñón!!</i></p>
     <br>
     <br>
@@ -53,10 +22,12 @@
     <p class="editor-vote editor-bold">El gato de mi vecino es muy <i> gruñón!!</i></p>
 
     <div>
-        <img style="height: 800px; width: 600px;" src="images/imagen1.jpg" alt="Mi imagen de prueba" />
-
+        <img class="imagen_vertical" src="images/imagen1.jpg" alt="Mi imagen de prueba" />
+        <img class="imagen_vertical" src="images/imagen1.jpg" alt="Mi imagen de prueba" />
     </div>
-
+    <div>
+        <img class="imagen_centrada" src="images/imagen1.jpg" alt="Mi imagen de prueba" />
+    </div>
 </body>
 
 </html>
